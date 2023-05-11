@@ -5,7 +5,7 @@ body {
     background-color: #e9e279;
     width: 1200px;
     height: 2000px;
-    margin: auto;
+    margin: 0 auto;
 }
 
 .main-header {
@@ -42,19 +42,20 @@ li {
 
 
 .title{
-    position: relative;
-    margin-bottom: 0px;
+    position: relative; top: 0px; 
+    margin-bottom: 50px;
+    margin-top: 20px;
 }
 .title img{
     position: absolute;
-    width: 1200px;
-    margin-top: 100px;;
+    width: 100%;
+    margin-top: 0%;
 }
 .title h1{
     position: absolute;
     z-index: 2;
     text-align: center;
-    padding-top: 22%;
+    padding-top: 11%;
     padding-left: 30%;
     color: #fff;
     margin: 30px;
@@ -63,17 +64,13 @@ li {
     position: absolute;
     z-index: 2;
     text-align: center;
-    padding-top: 28%;
-    padding-left: 25%;
+    padding-top: 20%;
+    padding-left: 28%;
     color: #fff;
 }
 
 .words{
-    position: absolute;
-    top: 80%;
-    left: 50%;
-    transform: translateX(-50%);
-    margin-top: 45px;
+    position: relative; top: 500px;
     width: 1160px;
     background-color: #fff;
     color: #000;
@@ -97,8 +94,8 @@ li {
 }
 
 .slide-container {
+    position: relative; top: -520px;
     max-width: 1200px;
-    margin: 20% auto;
     margin-left: auto;
     margin-right: auto;
     margin-top: 1100px;
@@ -106,6 +103,7 @@ li {
     display: flex;
     align-items: center;
     overflow: hidden;
+    z-index: 10;
 }
 .slide-wrapper {
     display: flex;
@@ -122,11 +120,9 @@ li {
 }
 
 .course{
-    position: absolute;
-    top: 80%;
+    position: relative; top: -460px;
     left: 50%;
     transform: translateX(-50%);
-    margin-top: 830px;
     width: 1160px;
     background-color: #fff;
     color: #000;
@@ -149,7 +145,7 @@ li {
     background-color: antiquewhite;
 }
 .c1 img{
-    width: 575px;
+    width: 580px;
 }
 .c1 h1{
     margin-top: 120px;
@@ -172,8 +168,8 @@ li {
     background-color: burlywood;
 }
 .c2 img{
-    width: 575px;
-    margin-left: 50px;
+    width: 580px;
+    margin-left: 55px;
 }
 .c2 h1{
     margin-top: 120px;
@@ -195,7 +191,7 @@ li {
     background-color: antiquewhite;
 }
 .c3 img{
-    width: 575px;
+    width: 580px;
 }
 .c3 h1{
     margin-top: 120px;
@@ -214,8 +210,8 @@ li {
 }
 
 .news{
+    position: relative; top: -420px;
     margin: 0 auto;
-    margin-top: 1625px;
     width: 960px;
     text-align: center;
     background-color: white;
@@ -318,6 +314,7 @@ li {
 
 
 .access{
+    position: relative; top: -420px;
     text-align: center;
     margin-bottom: 60px;
 }
@@ -343,7 +340,7 @@ li {
 
 .contact{
     text-align: center;
-    margin-top: 60px;
+    position: relative; top: -420px;
     background-color: rgb(239, 241, 197);
 }
 .contact h1{
